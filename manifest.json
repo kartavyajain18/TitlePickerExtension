@@ -1,0 +1,25 @@
+{
+    "name": "Title Picker",
+    "description": "It is a Title Picker Extension.",
+    "version": "1.0",
+    "manifest_version": 3,
+    
+    "icons": {
+        "16": "/images/picker_16.png",
+        "32": "/images/picker_32.png",
+        "48": "/images/picker_48.png"
+    },
+    
+    "background": {
+        "service_worker": "background.js"
+    },
+    
+    "permissions": ["storage", "activeTab", "scripting"],
+    
+    "action": {
+        "default_popup": "popup.html",
+        "16": "/images/picker_16.png",
+        "32": "/images/picker_32.png",
+        "48": "/images/picker_48.png"
+    }
+}
